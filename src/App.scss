@@ -1,0 +1,61 @@
+.app {
+  header.app-header {
+    width: 100%;
+    background-color: #ff6600;
+    padding: 4px 0;
+
+    .container {
+      display: flex;
+      align-self: center;
+
+      img {
+        max-width: 38px;
+        height: auto;
+        margin-right: 1em;
+        object-fit: cover;
+      }
+
+      h2 {
+        font-weight: bold;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  section.results {
+    margin-top: 1em;
+    padding: 1em 0;
+
+    .result {
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #d9d9d9;
+
+      em {
+        font-weight: 700;
+        background: #ff0 !important;
+        font-style: normal;
+      }
+
+      h5 {
+        font-size: 20px;
+        line-height: 1.3;
+      }
+
+      a {
+        font-size: 14px;
+        line-height: 1.3;
+      }
+
+      p.desc {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-height: 100px;
+        margin-top: 1em;
+        line-height: 1.58;
+        word-wrap: break-word;
+        color: #4d5156;
+      }
+    }
+  }
+}
